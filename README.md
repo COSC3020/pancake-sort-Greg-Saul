@@ -30,3 +30,20 @@ What is the asymptotic runtime ($\Theta$) of your algorithm in terms of the
 number of comparisons? What is it in terms of the number of flips? Add your
 answer to this markdown file.
 
+## My analysis
+
+the complexity of the compares is $\theta(n^2)$ because there are two for loops that each run $n$ times and there is one compare in the inner-most loop which makes it $n^2$
+
+The complexity of the flips is $\theta(2n)$ because there is 2 flip calls per iteration in the for loop that runs $n$ times
+
+
+
+
+
+
+
+
+
+
+
+
